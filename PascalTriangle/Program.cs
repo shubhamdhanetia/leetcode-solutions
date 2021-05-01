@@ -6,7 +6,9 @@ namespace PascalTriangle
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! Changed Again");
+            LeetCodeSolution solution = new LeetCodeSolution();
+            var result = solution.CalculatePascalTriangle(10);
+            solution.PrintPascalTriangle(result);
         }
     }
 }
