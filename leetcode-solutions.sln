@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplicateNumber", "Duplicat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseLinkedList", "ReverseLinkedList\ReverseLinkedList.csproj", "{86264D50-D617-4FAC-9CF2-43C321A54F4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{AD1307C8-D103-4F52-A8D2-3CB0A1EC3004}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{86264D50-D617-4FAC-9CF2-43C321A54F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86264D50-D617-4FAC-9CF2-43C321A54F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86264D50-D617-4FAC-9CF2-43C321A54F4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD1307C8-D103-4F52-A8D2-3CB0A1EC3004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1307C8-D103-4F52-A8D2-3CB0A1EC3004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1307C8-D103-4F52-A8D2-3CB0A1EC3004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1307C8-D103-4F52-A8D2-3CB0A1EC3004}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
