@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfIslands", "NumberOfIslands\NumberOfIslands.csproj", "{F1E5B118-BDC4-427D-9D09-7CEEAE7AC26A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberOfIslands", "NumberOfIslands\NumberOfIslands.csproj", "{F1E5B118-BDC4-427D-9D09-7CEEAE7AC26A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalTriangle", "PascalTriangle\PascalTriangle.csproj", "{CEBB47D3-4E5A-4002-9F8D-C81169F8CE02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PascalTriangle", "PascalTriangle\PascalTriangle.csproj", "{CEBB47D3-4E5A-4002-9F8D-C81169F8CE02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplicateNumber", "DuplicateNumber\DuplicateNumber.csproj", "{B5CAC586-3022-4917-B042-7E1AEE1F2EC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseLinkedList", "ReverseLinkedList\ReverseLinkedList.csproj", "{86264D50-D617-4FAC-9CF2-43C321A54F4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{CEBB47D3-4E5A-4002-9F8D-C81169F8CE02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEBB47D3-4E5A-4002-9F8D-C81169F8CE02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEBB47D3-4E5A-4002-9F8D-C81169F8CE02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5CAC586-3022-4917-B042-7E1AEE1F2EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CAC586-3022-4917-B042-7E1AEE1F2EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CAC586-3022-4917-B042-7E1AEE1F2EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CAC586-3022-4917-B042-7E1AEE1F2EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86264D50-D617-4FAC-9CF2-43C321A54F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86264D50-D617-4FAC-9CF2-43C321A54F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86264D50-D617-4FAC-9CF2-43C321A54F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86264D50-D617-4FAC-9CF2-43C321A54F4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
