@@ -22,6 +22,10 @@ namespace BinaryTree
             InsertRec(_root,new Node(data));
         }
 
+        public Node GetRootNode() {
+            return _root;
+        }
+
         private void InsertRec(Node root, Node newNode) {
 
             if (root == null) {

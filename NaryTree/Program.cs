@@ -16,7 +16,11 @@ namespace NaryTreePostOrderTraversal
             root.addchildren(2);
             root.addchildren(4);
             naryTree.root = root;
+
+
             var postorder = naryTree.postorder();
+
+
             var preorderresult = naryTree.preorder();
 
         }
