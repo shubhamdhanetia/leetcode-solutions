@@ -1,11 +1,14 @@
-﻿using System;
+﻿using Common;
+using System;
 
-namespace BinaryTree
+namespace MergeBTree
 {
     class Program
     {
         static void Main(string[] args)
         {
+            MergeBTreeHelper mergeBTreeHelper = new MergeBTreeHelper();
+
             BTree bTree = new BTree();
             bTree.Insert(10);
             bTree.Insert(8);
@@ -13,8 +16,6 @@ namespace BinaryTree
             bTree.Insert(11);
             bTree.Insert(7);
             bTree.Insert(9);
-            var result = bTree.InOrderTraversal();
-
 
             BTree bTree2 = new BTree();
             bTree2.Insert(10);
@@ -24,10 +25,7 @@ namespace BinaryTree
             bTree2.Insert(7);
             bTree2.Insert(9);
 
-            MergeTwoBTree merge = new MergeTwoBTree();
-            var mergeResult = merge.Merge(bTree.GetRootNode(),bTree2.GetRootNode());
-
-
+            var result = mergeBTreeHelper.Merge(bTree.GetRootNode(),bTree2.GetRootNode());
         }
     }
-} 
+}

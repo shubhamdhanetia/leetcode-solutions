@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Common;
 
-namespace BinaryTree
+namespace MergeBTree
 {
-    public class MergeTwoBTree
+    public class MergeBTreeHelper
     {
-        public Node Merge(Node t1, Node t2) {
+        public Node Merge(Node t1, Node t2)
+        {
 
             if (t1 == null) return t2;
 
@@ -16,7 +15,7 @@ namespace BinaryTree
 
             t1.Left = Merge(t1.Left, t2.Left);
 
-            t1.Right = Merge(t1.Right,t2.Right);
+            t1.Right = Merge(t1.Right, t2.Right);
 
             return t1;
 
