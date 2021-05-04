@@ -52,5 +52,26 @@ namespace NaryTreePostOrderTraversal
             return output;
         }
 
+        public IEnumerable<int> preorder() {
+
+            Stack<Node> stack = new Stack<Node>();
+            List<int> output = new List<int>();
+            if (root == null)
+            {
+                return output;
+            }
+            stack.Push(root);
+            while (stack.Count > 0) {
+                Node node = stack.Pop();
+                output.Add(node.data);
+                for (int i = node.children.Count - 1; i >= 0; i--) {
+                    stack.Push(node.children[i]);
+                }
+
+            }
+
+            return output;
+        }
+
     }
 }
