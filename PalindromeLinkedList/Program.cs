@@ -14,6 +14,9 @@ namespace PalindromeLinkedList
             linkedList.InsertLast(2);
             linkedList.InsertLast(1);
             var result = linkedList.IsPalindrome(); // Time Complexity : O(N)   Space Complexity : O(1)
+
+            PalindromeNumber checkPalindrome = new PalindromeNumber();
+            bool result1 = checkPalindrome.isPalindromeNumber(123321);
         }
     }
 }
