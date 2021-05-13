@@ -7,7 +7,7 @@ namespace MaximumDepthBTree
 {
     public class BTreeOperation
     {
-        public int GetMaximumDepth(Node root) {
+        public int GetMaximumDepth(Node root) { // Run Time : O(N)
 
             if (root == null) {
                 return 0;

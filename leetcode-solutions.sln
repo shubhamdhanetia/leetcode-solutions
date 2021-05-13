@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerProblems", "IntegerP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximumDepthBTree", "MaximumDepthBTree\MaximumDepthBTree.csproj", "{9D20AB8A-1D82-47DA-9FC3-9404D606C591}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymmetricTree", "SymmetricTree\SymmetricTree.csproj", "{F1AB2B1A-895D-43A8-871C-379BF47EB645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTreePathSum", "BTreePathSum\BTreePathSum.csproj", "{5B776696-1FB8-409F-8284-B9C42B5763D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{9D20AB8A-1D82-47DA-9FC3-9404D606C591}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D20AB8A-1D82-47DA-9FC3-9404D606C591}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D20AB8A-1D82-47DA-9FC3-9404D606C591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1AB2B1A-895D-43A8-871C-379BF47EB645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1AB2B1A-895D-43A8-871C-379BF47EB645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1AB2B1A-895D-43A8-871C-379BF47EB645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1AB2B1A-895D-43A8-871C-379BF47EB645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B776696-1FB8-409F-8284-B9C42B5763D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B776696-1FB8-409F-8284-B9C42B5763D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B776696-1FB8-409F-8284-B9C42B5763D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B776696-1FB8-409F-8284-B9C42B5763D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
